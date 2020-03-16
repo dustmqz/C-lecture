@@ -1,8 +1,8 @@
 /* 3.7 다양한 정수형들 
 ()안의 것들은 생략 가능
                                   크기                                    형식 지정자 (%d 처럼 %뒤에 뭐붙여야 하는지)
- (signed) char                    1Byte                                    hhu or c  
- unsigned char                    1Byte                                    hhu or c  
+ (signed) char                    1Byte                                    hhu(숫자) or c(문자)  
+ unsigned char                    1Byte                                    hhu(숫자) or c(문자)  
  (singed) short (int)             2Byte                                      hd
  unsigned short (int)             2Byte                                      hu  
  signed (int) or (singed) int     (2Byte)옛날하드웨어 or 4Byte               d or i
