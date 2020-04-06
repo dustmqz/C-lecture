@@ -106,7 +106,7 @@ int main()
   //용법이 완전히 다름
   int i;
   scanf("%*d%*d%d", &i); // 앞에 %*d 이런거 무시해버림 입력을 받기는 3개를 다 받는데 첫번째 두번째꺼는 입력 받아도 무시함
-  printf("Your third input = %d", i); */ 
+  printf("Your third input = %d", i);
   // scanf 가 구분을 하는 기호로써 빈칸 혹은 줄바꿈을 찾음 위의 %사이에 , 넣는거 아닌 이상
   
   return 0;
