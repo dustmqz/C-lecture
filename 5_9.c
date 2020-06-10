@@ -23,7 +23,7 @@
   return 0; // return statement
 
   ** Side Effects and Sequence Points **
-  x = 4;
+  x = 4; 
   y = 1 + x++;
   ; 이 있어야 컴파일러에서 아 이제 ; 앞에 있는 표현식의 값을 계산 할 수 있겠구나 하고 생각을 함 ; = sequence points
   
