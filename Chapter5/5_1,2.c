@@ -51,7 +51,7 @@ int main()
   salary = 100;
   bonus = 30;
   
-  income = salary + bonus; // l-value
+  income = salary + bonus; // l-value 
 
   int a, b;
   a = -7;
