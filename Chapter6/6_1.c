@@ -26,4 +26,19 @@ int main()
 }
   
   
+#include <stdio.h>
+
+int main()
+{
+  int num, sum = 0;
+  scanf("%d", &num);
+  while (num != 100);
+  {
+    printf("Enter an integer (q to quit) : %d", num);
+    sum += num;
+  }
+  printf("Sum = %d", sum);
+}
+  
+  여까지 했다.. ㅅ비랑ㅁㅇㄹ머링넘라ㅣㅏ러 
   
