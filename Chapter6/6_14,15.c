@@ -9,6 +9,46 @@
 //6.15 중첩된 루프들
 //예제
 
-// 원하는 글자부터 원하는 글자까지 원하는 횟수만큼 반복해서 출ㅑㅜ
+// 원하는 글자부터 원하는 글자까지 원하는 횟수만큼 반복해서 출력
 
+#include <stdio.h>
+
+int main()
+{
+  char x = 'A';
+  char y = 'K';
+  int repeat = 5;
+  
+  for (int i = 0; i < repeat; ++i){
+    while(x <= y){
+      printf("%c ", x);
+      x++;
+    }
+    x = 'A';
+    printf("\n");
+    
+  }
+}
+
+//함
+
+// 또 예제
+
+int main()
+{
+  char x = 'A';
+  char y = 'K';  
+    
+  while(x <= y){
+    printf("%c \n", x) * int(y - x);
+        x++;
+    
+  }
+  x = 'A';
+  printf("\n");
+
+  }
+}
+  
+// 아직 덜함 다음시간에................
 
