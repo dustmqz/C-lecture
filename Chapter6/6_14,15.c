@@ -49,5 +49,36 @@ int main()
     printf("\n");
   }
   return 0;
-}
+} // 강의에 나와있는거랑 다른 코드임 ㅇㅇ
+
+//또 예제
+// r이 1씩 증가하고 그에 따라 앞에서 출력값 하나씩 삭제
+
+#include <stdio.h>
+
+int main()
+{
+  char x = 'A';
+  char y = 'L';
   
+  for(int r = 0; x <= y+1; ++r){
+  	x = 'A';
+  	x += r;
+    for(; x <= y; ++x){
+      printf("%c ", x);
+    }
+    printf("\n");
+  }
+}
+
+//ㅇㅇ 내가 짠코드
+
+
+
+
+
+
+
+
+
+
