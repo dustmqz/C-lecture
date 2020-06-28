@@ -42,7 +42,7 @@ int main()
   char y = 'K';  
     
   for(int b = 1; x <= y; ++x, ++b){
-  	char x1 = 'A';
+  	char x1 = x;
     for(int a = 0; a < b; ++a, ++x1){
       printf("%c ", x1);
     }
@@ -51,5 +51,3 @@ int main()
   return 0;
 }
   
-// 아직 덜함 다음시간에................
-
