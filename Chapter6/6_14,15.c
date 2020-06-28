@@ -39,15 +39,13 @@ int main()
   char x = 'A';
   char y = 'K';  
     
-  while(x <= y){
-    printf("%c \n", x) * int(y - x);
-        x++;
-    
+  for(int b = 1; x < y; ++x, ++b){
+    for(int a = 0, char x1 = 'A';; a < b; ++a){
+      printf("%c ", x1);
+    }
+    printf("\n");
   }
-  x = 'A';
-  printf("\n");
-
-  }
+  return 0;
 }
   
 // 아직 덜함 다음시간에................
