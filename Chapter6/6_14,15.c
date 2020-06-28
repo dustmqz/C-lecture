@@ -34,13 +34,16 @@ int main()
 
 // 또 예제
 
+#include <stdio.h>
+
 int main()
 {
   char x = 'A';
   char y = 'K';  
     
-  for(int b = 1; x < y; ++x, ++b){
-    for(int a = 0, char x1 = 'A';; a < b; ++a){
+  for(int b = 1; x <= y; ++x, ++b){
+  	char x1 = 'A';
+    for(int a = 0; a < b; ++a, ++x1){
       printf("%c ", x1);
     }
     printf("\n");
