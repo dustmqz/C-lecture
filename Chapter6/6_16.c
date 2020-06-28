@@ -5,4 +5,4 @@
 int main()
 {
   char my_chars[] = "Hello, World!";
-  
+  다음에 다시................. 어려움.,.;
