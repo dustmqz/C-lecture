@@ -1,10 +1,13 @@
+//6.16 배열과 런타임 에러
+
 #include <stdio.h>
 
 #define NUM_DAYS 365
 
 int main()
 {
-  char my_chars[] = "Hello, World!";
+  char my_chars[] = "Hello, World!"; // 선언할 때 []을 붙이는건 이 변수가 배열이고 크기는 얼마다 라는 것을 의미함.
+  //  배열을 사용할 때 [ ]는 "배열의 요소에 접근하겠다"는 뜻
   
   int daily_temperature[NUM_DAYS];
   double stock_prices_history[NUM_DAYS];
